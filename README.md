@@ -13,8 +13,8 @@
 > rhsm-register-docker-install.yml playbook call the roles that are required for registration and docker setup
 
 
-| S.no|      Role Name      	|Purpose|
-|----------|:-------------:|------:	|
+| S.no|      Role Name    |Purpose|
+|----------|:-------------:|------:|
 | 1	|  rhsm-registration	| It subscribes  the system to Redhat Statellite on the basis of OS distribution Box has |
 | 2 	|  rhsm-update-system|  | Checks the system kernal version and update the sytem and display the updated the kernal version |
 | 3 	|  rhsm-docker-install 	| Attach the system to the docker pool , install the docker-ce , start the docker service and display the docker service status|
