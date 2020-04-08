@@ -11,6 +11,8 @@
 	- After the successfull excution of subscribeToSatellite.sh script , system update is done to update all the packages of system and then attach the system to the required pool for package installation.
 	- For the docker setup  and registerting the system to Redhat Statellite(Redhat 7 and Centos 7)  ansible playbook* rhsm-register-docker-install.yml  is used.*
 > rhsm-register-docker-install.yml playbook call the roles that are required for registration and docker setup
+
+
 | S.no|      Role Name      	|  Purpose|
 |----------	|:-------------:	|------:	|
 | 1	|  rhsm-registration	| It subscribes  the system to Redhat Statellite on the basis of OS distribution Box has |
